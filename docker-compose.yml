@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  alarm-api:
+    build: .
+    command: uvicorn apps.backend.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+  alarm-mcp:
+    build: .
+    command: uvicorn apps.mcp_server.main:app --host 0.0.0.0 --port 9000
+    ports:
+      - "9000:9000"
+  copilot-ui:
+    build: .
+    command: streamlit run apps/frontend/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#f8fafc"/>
+  <rect x="60" y="80" width="220" height="80" rx="10" fill="#2563eb"/>
+  <text x="170" y="125" text-anchor="middle" fill="white" font-size="22">GUI</text>
+  <rect x="340" y="80" width="220" height="80" rx="10" fill="#0f766e"/>
+  <text x="450" y="125" text-anchor="middle" fill="white" font-size="20">Copilot Orchestrator</text>
+  <rect x="620" y="80" width="220" height="80" rx="10" fill="#7c3aed"/>
+  <text x="730" y="125" text-anchor="middle" fill="white" font-size="20">MCP Client</text>
+  <rect x="340" y="240" width="220" height="80" rx="10" fill="#dc2626"/>
+  <text x="450" y="285" text-anchor="middle" fill="white" font-size="20">MCP Server</text>
+  <rect x="620" y="240" width="220" height="80" rx="10" fill="#ea580c"/>
+  <text x="730" y="285" text-anchor="middle" fill="white" font-size="20">Alarm API</text>
+  <rect x="60" y="240" width="220" height="80" rx="10" fill="#16a34a"/>
+  <text x="170" y="285" text-anchor="middle" fill="white" font-size="20">RAG Documents</text>
+  <path d="M280 120 L340 120" stroke="#334155" stroke-width="3" fill="none"/>
+  <path d="M560 120 L620 120" stroke="#334155" stroke-width="3" fill="none"/>
+  <path d="M730 160 L730 240" stroke="#334155" stroke-width="3" fill="none"/>
+  <path d="M620 280 L560 280" stroke="#334155" stroke-width="3" fill="none"/>
+  <path d="M340 280 L280 280" stroke="#334155" stroke-width="3" fill="none"/>
+  <path d="M170 160 L170 240" stroke="#334155" stroke-width="3" fill="none"/>
+  <text x="450" y="430" text-anchor="middle" font-size="18" fill="#334155">MCP + RAG evidence flow for alarm investigation</text>
+</svg>
